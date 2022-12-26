@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01.csproj": {}
+  },
+  "projects": {
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01.csproj",
+        "projectName": "BCSF19M548_Assignment01",
+        "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01.csproj",
+        "packagesPath": "C:\\Users\\syeda\\.nuget\\packages\\",
+        "outputPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BCSF19M548_Assignment01\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\syeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\PL\\PL.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\PL\\PL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DAL\\DAL.csproj"
+              },
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\PL\\PL.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\PL\\PL.csproj",
+        "projectName": "PL",
+        "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\PL\\PL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BLL\\BLL.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\BLL\\BLL.csproj"
+              },
+              "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\PUCIT\\semester7\\EAD\\BCSF19M548_Assignment01\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
